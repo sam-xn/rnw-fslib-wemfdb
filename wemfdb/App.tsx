@@ -1,33 +1,3 @@
-///**
-// * Sample React Native App
-// * https://github.com/facebook/react-native
-// *
-// * @format
-// */
-
-//import { NewAppScreen } from '@react-native/new-app-screen';
-//import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-
-//function App() {
-//  const isDarkMode = useColorScheme() === 'dark';
-
-//  return (
-//    <View style={styles.container}>
-//      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-//      <NewAppScreen templateFileName="App.tsx" />
-//    </View>
-//  );
-//}
-
-//const styles = StyleSheet.create({
-//  container: {
-//    flex: 1,
-//  },
-//});
-
-//export default App;
-
-
 import React from 'react';
 import styles from './styles';
 import { StatusBar, useColorScheme, View } from 'react-native';
@@ -42,7 +12,7 @@ import Invoices from './pages/Invoices';
 
 import TestsDB from './pages/Tests-DB';
 import TestsFD from './pages/Tests-FD';
-//import TestsLib from './pages/Tests-Lib';
+import TestsLib from './pages/Tests-Lib';
 
 export default function App() {
     const isDarkMode = useColorScheme() === 'dark';
@@ -61,7 +31,7 @@ export default function App() {
 
                     <Route path="/tests-db" element={<TestsDB />} />
                     <Route path="/tests-fd" element={<TestsFD />} />
-                    {/*<Route path="/tests-lib" element={<TestsLib />} />*/}
+                    <Route path="/tests-lib" element={<TestsLib />} />
                 </Routes>
             </View>
         </NativeRouter>

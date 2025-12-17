@@ -30,9 +30,9 @@ export default function HomeScreen () {
                 <Text style={styles.linkText}>Go to Tests-FD</Text>
             </Link>
 
-            {/*<Link to="/tests-lib" style={styles.link}>*/}
-            {/*    <Text style={styles.linkText}>Go to Tests-lib</Text>*/}
-            {/*</Link>*/}
+            <Link to="/tests-lib" style={styles.link}>
+                <Text style={styles.linkText}>Go to Tests-lib</Text>
+            </Link>
         </View>
     );
 };

@@ -18,6 +18,7 @@
     "react-native": "0.80.0",
     "react-native-windows": "0.80.0",
     "react-router-native": "^6.30.0",
+    "rnw-fslib": "file:.\\..\\rnw-fslib",
     "tslib": "^2.8.1"
   },
   "devDependencies": {
@@ -31,6 +32,7 @@
     "@react-native/eslint-config": "0.80.0",
     "@react-native/metro-config": "0.80.0",
     "@react-native/typescript-config": "0.80.0",
+    "@rnx-kit/jest-preset": "^0.1.17",
     "@types/jest": "^29.5.13",
     "@types/react": "^19.1.0",
     "@types/react-test-renderer": "^19.1.0",
@@ -38,8 +40,7 @@
     "jest": "^29.6.3",
     "prettier": "2.8.8",
     "react-test-renderer": "19.1.0",
-    "typescript": "5.0.4",
-    "@rnx-kit/jest-preset": "^0.1.17"
+    "typescript": "5.0.4"
   },
   "engines": {
     "node": ">=18"

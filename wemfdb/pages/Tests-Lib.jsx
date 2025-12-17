@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './../styles';
 import { useNavigate } from 'react-router-native';
 import { View, Text, TouchableOpacity } from 'react-native';
-import { multiply } from 'testlib';
+import { multiply } from 'rnw-fslib';
 
 const result = multiply(3, 7);
 
